@@ -1,0 +1,28 @@
+body {
+  background-color: #3d91f5;
+  font-family: "Poppins", sans-serif;
+}
+.custom-menu {
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #020332;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.custom-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.custom-menu ul li {
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.custom-menu ul li:hover {
+  background-color: #c7c8f5;
+}
